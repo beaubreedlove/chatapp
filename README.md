@@ -1,7 +1,11 @@
-# ChatApp Documentation
+# ChatApp
 
-This repository contains the planning documents for **ChatApp**, a peer-to-peer chat application.
+This repository contains an early MVP implementation of ChatApp following the first five steps of the development plan. It uses Electron with React, libp2p for peer networking, libsodium for encryption, and SQLite for local storage.
 
-- [Product Specification](./PRODUCT_SPEC.md) – defines the feature set and user flows for the application.
-- [Technical Specification](./TECH_SPEC.md) – proposes the technology stack and high-level architectural approach.
-- [Development Plan](./DEVELOPMENT_PLAN.md) – outlines the steps to deliver an MVP and beyond.
+## Development
+
+1. Install dependencies with `npm install`.
+2. Run `npm start` to compile TypeScript and launch the Electron app.
+3. Launch the app on multiple machines and share peer IDs and public keys when prompted to send encrypted messages.
+
+Messages are stored locally in `chat.db` under the user's data directory.

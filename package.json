@@ -1,0 +1,25 @@
+{
+  "name": "chatapp",
+  "version": "0.1.0",
+  "description": "MVP peer-to-peer encrypted chat app built with Electron and React.",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "tsc && electron .",
+    "build": "tsc && electron-builder",
+    "dev": "tsc -w",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "electron": "^25.3.1",
+    "electron-builder": "^24.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "libp2p": "^0.41.0",
+    "libp2p-webrtc-star": "^0.28.0",
+    "libsodium-wrappers": "^0.7.9",
+    "better-sqlite3": "^8.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
