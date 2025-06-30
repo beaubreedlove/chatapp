@@ -31,3 +31,6 @@ This document outlines the initial technology choices for building the ChatApp d
 ## Future Extensions
 - The TypeScript messaging module and storage layer can be reused in a React Native or Flutter client for Android/iOS, or in a browser-based SPA using WebRTC.
 
+
+## Development Roadmap
+For an ordered plan on how to implement this specification, see [DEVELOPMENT_PLAN.md](./DEVELOPMENT_PLAN.md). It describes the recommended sequence of tasks that leads to a testable prototype and outlines additional feature work and packaging steps.
